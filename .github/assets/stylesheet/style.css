@@ -1,0 +1,264 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*, *::after, *::before{
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Karla', sans-serif;
+	line-height: 1.5;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'DM Serif Display', serif;
+}
+.container{
+	max-width: 1430px;
+	padding: 0 120px;
+}
+.flex{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/*Header*/
+.company-name {
+	font-weight: 300;
+	color: #2d2640;
+	font-size: 30px;
+	padding: 10px 0;
+}
+.navbar a{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 300;
+	color: #2d2640;
+	margin: 10px;
+}
+.navbar button{
+	box-shadow: none;
+	border: 1px solid #2d2640;
+	text-transform: uppercase;
+	padding: 5px;
+	background-color: white;
+	border-radius: 8px;
+}
+
+/*Main*/
+.sec1{
+	background-color: #2d2640;
+}
+.article1{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.article1 button{
+	margin-top: 10px;
+	background-color: #2d2640;
+	border-radius: 8px;
+	border: 1px solid white;
+	width: 150px;
+	padding: 10px;
+}
+.article1 button a{	
+	text-decoration: none;
+	text-transform: uppercase;
+	color: white;
+}
+.col1{
+	display: flex;
+	width: 60%;
+}
+.topborder{
+	border-top: 1px solid white;
+	width: 80px;
+	position: relative;
+}
+.col1 h1{
+	color: white;
+	font-size: 32px;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+.col1 p{
+	color: white;
+	font-weight: lighter;
+	font-size: 15px;
+	margin-bottom: 10px;
+}
+.col2{
+	display: flex;
+	width: 30%;
+}
+.col2 img{
+	display: flex;
+	position: relative;
+	width: 100%;
+	top: 80px;
+	right: 20px;
+}
+.col1-1 img{
+	display: flex;
+	position: relative;
+	width: 360px;
+	top: 100px;
+	border-radius: 10px;
+}
+.article2{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.article2 button{
+	margin-top: 10px;
+	background-color: white;
+	border-radius: 8px;
+	border: 1px solid #2d2640;
+	width: 150px;
+	padding: 10px;
+}
+.article2 button a{	
+	text-decoration: none;
+	text-transform: capitalize;
+	color: #2d2640;
+}
+.col1-1{
+	display: flex;
+	width: 30%;
+}
+.col1-2{
+	display: flex;
+	top: 220px;
+	width: 60%;
+}
+.article2 h2{
+	padding-top: 150px;
+	font-size: 28px;	
+	color: #2d2640;
+	font-size: 32px;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+.sect-easyprocess h2{
+	font-size: 28px;	
+	color: #2d2640;
+	font-size: 32px;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+.lineabove{
+	margin-top: 60px;
+	border-top: 1px solid #483974;
+	width: 80px;
+	position: relative;
+}
+.col1-2 p{
+	font-size: 15px;
+	color: #2d2640;
+	font-weight: lighter;
+	letter-spacing: 1px;
+}
+.col-1{
+	margin-right: 30px;
+}
+.col-1 h5{
+	font-size: 20px;
+	color: #2d2640;
+	margin-bottom: 10px;
+	font-weight: 300;
+}
+.col-1 p{
+	font-size: 15px;
+	color: #2d2640;
+	font-weight: 200;
+	letter-spacing: -1px;
+	word-spacing: -1px;
+	margin-bottom: 20px;
+}
+.sec1 h2{
+	color: white;
+	font-size: 32px;
+	font-weight: 600;
+	margin: 80px 20px;
+}
+.sec1 button{
+	margin-right: 20px;
+	background-color: #2d2640;
+	border-radius: 8px;
+	border: 1px solid white;
+	width: 150px;
+	padding: 10px;
+}
+.sec1 button a{	
+	text-decoration: none;
+	text-transform: uppercase;
+	color: white;
+	font-weight: 300;
+}
+.socialsites a{
+	width: 20px;
+	padding: 10px;
+}
+.center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	letter-spacing: -1px;
+}
+.center a{
+	text-decoration: none;
+	padding: 10px;
+	color: #483974;
+}
+.copyright{
+	color: white;
+	text-align: center;
+	padding: 20px;
+}
